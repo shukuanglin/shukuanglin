@@ -107,7 +107,7 @@ Content - Page (General)
 ----------------------------------------------------------------------------*/
 .logo {
 	position: fixed;
-	z-index: 10;
+	z-index: 1001;
 	font-size: 32px;
 	font-weight: 200;
 	letter-spacing: 10px;
@@ -1359,6 +1359,18 @@ ul#port-filter li a{
 	color: rgba(0,0,0,.2);
 	padding: 10px;
 }
+.about{
+	color: #565656;
+	font-size:14px;
+	padding: 0 20px 0 0;
+	background: transparent;
+	font-family: Lato;
+	border-right: 1px solid #bbb;
+	margin-right: 10px;
+	cursor: pointer;
+}
+button:focus { outline: none; }
+
 ul#port-filter li:hover a{
 	color:#565656;
 }
