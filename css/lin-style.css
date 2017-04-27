@@ -427,7 +427,7 @@ Content - Page (General)
 	z-index: 10;
 	font-size: 30px;
 	font-weight: 200;
-	left: 20px;
+	left: 12px;
 	text-align: left;
 	width:inherit;
 }
@@ -1474,7 +1474,7 @@ li.filter-current a{
 }
 ul#port-filter{
 	padding: 0;
-	margin: 0 0 0 10px;
+	margin: 0;
 	float: left;
 }
 ul#port-filter li{
@@ -1482,6 +1482,7 @@ ul#port-filter li{
 	font-size:14px;
 	margin: 0;
 }
+ul#port-filter li a {padding: 10px 9px;}
 .about{
 	position: absolute;
 	right: 0;
