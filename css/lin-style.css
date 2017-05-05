@@ -93,7 +93,7 @@ p{
 	font-size: 14px;
 	color: #666;
 	padding-bottom: 0px;
-	font-weight: 300;
+	font-weight: 400;
 }
 
 /*----------------------------------------------------------------------------
@@ -485,7 +485,7 @@ Tile Preview (Lightbox)
 .lb-excerpt,
 .lb-desc{
 	/* color:#bfbfbf; */
-	padding: 20px 0px;
+	padding: 15px 0;
 }
 .lb-excerpt a:hover,
 .lb-desc a:hover{
@@ -2194,7 +2194,7 @@ noindex:-o-prefocus, #content-title, .page-sub-title h1, .section-title, .widget
 	color: #bbb;
 	z-index: 1000;
 	position: absolute;
-	left: 190px;
+	left: 154px;
 	font-size: 12px;
 	top: 10px;
 }
@@ -2213,7 +2213,7 @@ noindex:-o-prefocus, #content-title, .page-sub-title h1, .section-title, .widget
 }
 
 
-@media only screen and (max-width: 1024px) and (min-width:640px) {
+@media only screen and (max-width: 1080px) and (min-width:640px) {
     body {
         /*background-color: lightblue;*/
     }
@@ -2221,15 +2221,22 @@ noindex:-o-prefocus, #content-title, .page-sub-title h1, .section-title, .widget
 		left: 3% !important;
 	    width: 94% !important;
     }
-    .one-third.last h7 {padding-left: 20px;}
+    .one-third.last h7 {padding-left: 30px;}
     .one-third.last .lb-excerpt {
 		color:#bfbfbf;
-		padding: 20px 0 20px 20px;
+		padding: 15px 0 15px 30px;
 	}
 	.one-third.last .toggle-button {
-		margin-left: 20px;
+		margin-left: 30px;
 	}
-	.one-third.last .break {margin-left: 20px;}
+	.one-third.last .break {margin-left: 30px;}
+}
+
+@media only screen and (max-width: 1440px) and (min-width:1300px) {
+	#fancybox-wrap {
+		left: 12% !important;
+		width: 76% !important;
+	}
 }
 
 
