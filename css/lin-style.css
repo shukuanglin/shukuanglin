@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
 @charset "utf-8";
 
 *{
@@ -102,25 +103,24 @@ Content - Page (General)
 .logo {
 	position: fixed;
 	z-index: 1001;
-	font-size: 32px;
-	font-weight: 200;
-	letter-spacing: 10px;
+	font-size: 42px;
+	letter-spacing: 4px;
 	color: #121212;
 	text-shadow: 0px 0px 0 #121212;
 	transition: all 0.15s linear;
 	-moz-transition: all 0.15s linear;
 	-webkit-transition: all 0.15s linear;
 	-o-transition: all 0.15s linear;
-	top: 10px;
+	top: 0px;
 	text-align: center;
 	left: 47%;
 	width: 6%;
-	padding-left: 8px;
+	font-family: 'Permanent Marker', cursive;
 }
 
 .onoffswitch-checkbox:checked + .onoffswitch-label .logo{
-	text-shadow: 8px 0 0 #343434;
-	padding-left: 4px;
+/*	text-shadow: 8px 0 0 #343434;
+	padding-left: 4px;*/
 }
 
 .onoffswitch {
@@ -392,8 +392,8 @@ Content - Page (General)
 	margin-top: 110px;
 }
 .logo {
-	left: 12px;
-	width:inherit;
+	width: 100%;
+    left: 0;
 }
 
 .onoffswitch-switch {
